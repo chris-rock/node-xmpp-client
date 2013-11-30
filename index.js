@@ -310,4 +310,5 @@ Client.prototype.registerSaslMechanism = function () {
     this.availableSaslMechanisms = this.availableSaslMechanisms.concat(args)
 }
 
+Client.Client = Client
 module.exports = Client
